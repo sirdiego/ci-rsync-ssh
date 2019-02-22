@@ -9,5 +9,3 @@ RUN apk update \
             openssh-client \
             bash \
  && rm -rf /var/cache/apk/*
-
-CMD [ "/bin/bash" ]
